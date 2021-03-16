@@ -7,7 +7,7 @@
 int main()
 {
   std::ifstream code;
-  code.open("code.txt");
+  code.open("input.cpp");
   int tabs = 0;
   std::string line;
   while(getline(code, line)){
